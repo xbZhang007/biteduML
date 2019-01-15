@@ -20,7 +20,7 @@ def loadData(filePath):
     # 当需要读写文件时,调用fr变量中File对象的方法
 
     lines = fr.readlines()  # 读取文件,得到文件中的每一行
-    # readline()方法从当前File文件对象取得一个字符串列表
+    # readlines()方法从当前File文件对象取得一个字符串列表
     # 列表中的每个字符串就是文本中的一行
 
     retData = []  # 定义一个空列表,存储城市的房租数据
